@@ -10,6 +10,7 @@
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
+/db/seeds.rb
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
@@ -28,3 +29,4 @@ Thumbs.db
 #rails database config
 /config/database.yml
 /config/secrets.yml
+db_schema_designer.xml
