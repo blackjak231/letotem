@@ -16,10 +16,10 @@
 //= require_tree .
 
 $(document).ready(function(){
-	$('#blur').blurjs({
+	$('html').blurjs({
 		source: 'html',			//Background to blur
-		radius: 7,			//Blur Radius
-		overlay: 'rgba(245,245,245,0.8)',			//Overlay Color, follow CSS3's rgba() syntax
+		radius: 100,			//Blur Radius
+		overlay: 'rgba(245,245,245,0.0)',			//Overlay Color, follow CSS3's rgba() syntax
 		offset: {			//Pixel offset of background-position
 			x: 0,
 			y: 0
