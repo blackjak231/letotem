@@ -13,7 +13,7 @@ if User.find_by(username: "admin").nil?
     admin.save
 end
 if User.find_by(username: "thibz").nil?
-    user = User.new(username: 'admin', email: 'thibault232@gmail.com', password: 'letotem', password_confirmation: 'letotem')
+    user = User.new(username: 'thibz', email: 'thibault232@gmail.com', password: 'letotem', password_confirmation: 'letotem')
     #admin.skip_confirmation!
     #admin.add_role "pro"
     user.save
